@@ -1,0 +1,90 @@
+* {box-sizing: border-box;}
+
+body{
+  margin: 10px;
+  background-color:whitesmoke;
+}
+
+/*===Heading===*/
+.heading{
+    margin: 5px 0;
+    background-color: #8a8484;
+    border-radius: 10px;
+    font-size: 40px;
+    padding: 15px;
+    text-align: center;
+}
+
+/*===Main body housing 
+all the contents===*/
+main{
+    background-color: #d9e6e6;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    padding: 100px;
+    border-radius: 10px;
+}
+
+/*===The box where msg is entered===*/
+#entry-div{
+    border-radius: 20px;
+    padding: 1em;
+    width: 26em;
+    height: 15em;
+    border: unset;
+    background-color: #f7b559;
+    color: black;
+}
+
+/*===The submit button===*/
+#submit-btn{
+    margin-left: 150px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/*===when the mouse hovers
+on the submit button===*/
+#submit-btn:hover{
+    background-color: #f7b559;
+    border: 1px black;
+    cursor: pointer;
+}
+
+/*====The box where the msg  
+is stored & displayed====*/
+#display-box{
+    text-align: left;
+    width: 280px;
+    margin: 15px auto;
+    color: white;
+    background-color: #0f8383;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 20px;
+    font-family: cursive;
+}
+
+/*===the buttons clicked
+to display mssgs====*/
+.display-entry-btn{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/*===when the mouse hovers
+over the displayMsg button===*/
+.display-entry-btn:hover{
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+/*====The last section====*/
+footer{
+    background-color: #8a8484;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 5px;
+}

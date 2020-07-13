@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Diary App</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta charset = "UTF-8"/>
+            <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <header>
+        <h1 class="heading">My Personal Diary</h1>
+    </header>
+    <main>
+            <form id="entry-form">
+                <textarea id="entry-div" placeholder="Click here to start typing...." required></textarea><br/>
+                <button id="submit-btn" class="btn" type="submit">Submit</button>
+            </form>
+            <br/>
+            <section id="display-box">
+                <div id = "entry-content"></div>
+            </section>
+    </main>
+    <footer>
+        <div>
+            <div>
+                <h3>How to Use</h3>
+                <p>1. Type in a message in the orange box.</p>
+                <p>2. A button will appear in the lower green box which will store the message entered.</p>
+                <p>3. You can choose to go back and store multiple messages which will get stored in different sequentially-numbered buttons</p>
+                <p>4. Click on each button to display the message stored therein.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
